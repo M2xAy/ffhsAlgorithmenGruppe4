@@ -7,7 +7,20 @@ public class QuickSort
 	 */
 	public static void sort(int[] array)
 	{
-		// TODO
+		int pivotStart = array[0];
+		int pivotEnd = array.length;
+		int pivot;
+
+		if (array.length == 0 || array.length ==1)
+		{
+			array = array.clone();
+			return;
+		}
+		if (pivotEnd > pivotStart)
+		{
+			 pivot = findPivot(array, pivotStart, pivotEnd);
+		}
+
 	}
 	
 	/**
@@ -94,7 +107,7 @@ public class QuickSort
 	 */
 	static int findPivot(int[] array, int start, int end)
 	{
-		// TODO
-		return -1;
+		int middleIndex =  (array[start]  + array[end] ) >>> 1;
+		return middleIndex;
 	}
 }

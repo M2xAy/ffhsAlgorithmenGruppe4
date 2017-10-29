@@ -1,5 +1,6 @@
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -14,8 +15,8 @@ import static org.junit.jupiter.api.Assertions.*;
         private ArrayList<int[]> arrays;
 
 
-        //@Before
-        public void init()
+        @BeforeEach
+        public  void init()
         {
             arrays = new ArrayList<>();
             arrays.add(new int[] { });
