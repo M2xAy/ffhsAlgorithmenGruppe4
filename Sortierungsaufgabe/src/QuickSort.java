@@ -7,20 +7,11 @@ public class QuickSort
 	 */
 	public static void sort(int[] array)
 	{
-		int pivotStart = array[0];
-		int pivotEnd = array.length;
-		int pivot;
-
-		if (array.length == 0 || array.length ==1)
-		{
-			array = array.clone();
-			return;
-		}
-		if (pivotEnd > pivotStart)
-		{
-			 pivot = findPivot(array, pivotStart, pivotEnd);
-		}
-
+		int start = 0;
+		int end = array.length-1;
+		int pivot =0;
+		pivot = findPivot(array, start, end);
+		partition(array,start,end,pivot);
 	}
 	
 	/**
@@ -79,8 +70,32 @@ public class QuickSort
 	 */
 	static int partition(int[] array, int start, int end, int piv)
 	{
-		// TODO Verwenden Sie diese Mehode für Quicksort
-		return -1;
+		int i = start;
+		int j = end;
+		int pivot = array[piv];
+
+		while (i<=j)
+		{
+			//swap(array,piv,end);
+			while (array[i] < pivot)
+			{
+				i++;
+			}
+
+			while (array[j] > pivot)
+			{
+				j--;
+			}
+
+			if (i<= j)
+			{
+				swap(array,i,j);
+				i++;
+				j--;
+			}
+
+		}
+		return i;
 	}
 	
 	/**
@@ -107,7 +122,8 @@ public class QuickSort
 	 */
 	static int findPivot(int[] array, int start, int end)
 	{
-		int middleIndex =  (array[start]  + array[end] ) >>> 1;
+		int middleIndex =  (start  + end ) >>> 1;
+		//int middleIndex = array[0];
 		return middleIndex;
 	}
 }
