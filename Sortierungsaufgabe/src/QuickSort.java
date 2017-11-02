@@ -10,8 +10,10 @@ public class QuickSort
 		int start = 0;
 		int end = array.length-1;
 		int pivot =0;
-		pivot = findPivot(array, start, end);
-		partition(array,start,end,pivot);
+
+		/*pivot = findPivot(array, start, end);
+		int i = partition(array,start,end,pivot);*/
+		sort(array,start,end);
 	}
 	
 	/**
@@ -22,7 +24,13 @@ public class QuickSort
 	 */
 	public static void sort(int[] array, int start, int end)
 	{
-		// TODO  
+		if (end > start)
+		{
+			int pivot = findPivot(array, start, end);
+			int i = partition(array,start,end,pivot);
+			sort(array,start, i-1);
+			sort(array,i+1, end);
+		}
 	}
 	
 	/** 
