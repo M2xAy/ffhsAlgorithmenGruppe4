@@ -38,7 +38,10 @@ public class QuickSort
 	 * statt Quicksort aufgerufen werden sollte. 
 	 */
 	static int THRESHOLD = 4; // TODO finden Sie einen sinnvollen Wert
-	
+
+
+
+
 	/**
 	 * Modifiziertes Quicksorts.
 	 * Wenn die Grösse des zu sortierenden Arrays in der Rekursion 
@@ -46,9 +49,12 @@ public class QuickSort
 	 * aufgerufen.
 	 * @param array Zu sortierendes Array
 	 */
-	public static void sortPlus(int[] array)
-	{
+	public static void sortPlus(int[] array) {
 		// TODO
+		if (array.length >= THRESHOLD)
+		{
+			InsertSort.sort(array);
+		}
 	}
 
 	/**
@@ -62,7 +68,7 @@ public class QuickSort
 	 */
 	public static void sortPlus(int[] array, int start, int end)
 	{
-		// TODO
+
 	}
 
 	/**
