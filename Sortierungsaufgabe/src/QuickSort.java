@@ -10,10 +10,8 @@ public class QuickSort
 		int start = 0;
 		int end = array.length-1;
 		int pivot =0;
-
-		/*pivot = findPivot(array, start, end);
-		int i = partition(array,start,end,pivot);*/
-		sort(array,start,end);
+		pivot = findPivot(array, start, end);
+		partition(array,start,end,pivot);
 	}
 	
 	/**
@@ -24,22 +22,15 @@ public class QuickSort
 	 */
 	public static void sort(int[] array, int start, int end)
 	{
-		if (end > start)
-		{
-			int pivot = findPivot(array, start, end);
-			int i = partition(array,start,end,pivot);
-			sort(array,start, i-1);
-			sort(array,i+1, end);
-		}
+		// TODO  
 	}
 	
 	/** 
 	 * Schwellwert, bei welcher Arraygrösse in der Rekursion InsertSort 
 	 * statt Quicksort aufgerufen werden sollte. 
 	 */
-	static int THRESHOLD = 4; // TODO finden Sie einen sinnvollen Wert
 
-
+	static int THRESHOLD = 3; // TODO finden Sie einen sinnvollen Wert
 
 
 	/**
@@ -49,12 +40,16 @@ public class QuickSort
 	 * aufgerufen.
 	 * @param array Zu sortierendes Array
 	 */
-	public static void sortPlus(int[] array) {
+
+
+	public static void sortPlus(int[] array)
+	{
 		// TODO
 		if (array.length >= THRESHOLD)
 		{
 			InsertSort.sort(array);
 		}
+
 	}
 
 	/**
