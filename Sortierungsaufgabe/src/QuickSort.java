@@ -29,16 +29,10 @@ public class QuickSort
 	 * Schwellwert, bei welcher Arraygrösse in der Rekursion InsertSort 
 	 * statt Quicksort aufgerufen werden sollte. 
 	 */
-<<<<<<< HEAD
+
 	static int THRESHOLD = 3; // TODO finden Sie einen sinnvollen Wert
-	
-=======
-	static int THRESHOLD = 4; // TODO finden Sie einen sinnvollen Wert
 
 
-
-
->>>>>>> a40e35a40e1a4ee62b7ef9bb13712bbbf8f5cf32
 	/**
 	 * Modifiziertes Quicksorts.
 	 * Wenn die Grösse des zu sortierenden Arrays in der Rekursion 
@@ -46,18 +40,16 @@ public class QuickSort
 	 * aufgerufen.
 	 * @param array Zu sortierendes Array
 	 */
-<<<<<<< HEAD
+
+
 	public static void sortPlus(int[] array)
 	{
-
-=======
-	public static void sortPlus(int[] array) {
 		// TODO
 		if (array.length >= THRESHOLD)
 		{
 			InsertSort.sort(array);
 		}
->>>>>>> a40e35a40e1a4ee62b7ef9bb13712bbbf8f5cf32
+
 	}
 
 	/**
