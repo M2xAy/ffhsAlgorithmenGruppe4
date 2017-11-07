@@ -20,14 +20,22 @@ import static org.junit.jupiter.api.Assertions.*;
         {
             arrays = new ArrayList<>();
            // arrays.add(new int[] { });
+<<<<<<< HEAD
             arrays.add(new int[] {1});
+=======
+            //arrays.add(new int[] {1});
+>>>>>>> parent of e8a9626... Quiksort implementiert
             //arrays.add(new int[] {2, 1});
             //arrays.add(new int[] {1, 1, 2, 2, 3});
             //arrays.add(new int[] {1, 1, 2, 2, 1});
             //arrays.add(new int[] {2, 1});
             //arrays.add(new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10});
             //arrays.add(new int[] {10, 9, 8, 7, 6, 5, 4, 3, 2, 1});
+<<<<<<< HEAD
             //arrays.add(new int[] {26,33,35,29,19,12,22});
+=======
+            arrays.add(new int[] {26,33,35,29,19,12,22});
+>>>>>>> parent of e8a9626... Quiksort implementiert
             arrays.add(new int[] {8,1,6,9,6,3,5,2,7,0});
             arrays.add(new int[] {10, 3, 5, 3, 6, 3, 2, 8, 7, 2, 2});
             arrays.add(new int[10]);
