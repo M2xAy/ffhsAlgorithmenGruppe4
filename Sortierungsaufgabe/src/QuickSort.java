@@ -37,7 +37,7 @@ public class QuickSort
 	 * Schwellwert, bei welcher Arraygrösse in der Rekursion InsertSort 
 	 * statt Quicksort aufgerufen werden sollte. 
 	 */
-	static int THRESHOLD = 4; // TODO finden Sie einen sinnvollen Wert
+	static int THRESHOLD = 3; // TODO finden Sie einen sinnvollen Wert
 	
 	/**
 	 * Modifiziertes Quicksorts.
@@ -48,7 +48,7 @@ public class QuickSort
 	 */
 	public static void sortPlus(int[] array)
 	{
-		// TODO
+
 	}
 
 	/**
