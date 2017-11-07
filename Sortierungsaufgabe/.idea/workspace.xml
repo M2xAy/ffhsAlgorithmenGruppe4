@@ -15,6 +15,7 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
 =======
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -40,8 +41,19 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-399">
               <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+=======
+      <file leaf-file-name="SortTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test/SortTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+>>>>>>> parent of e8a9626... Quiksort implementiert
               <folding>
                 <element signature="method#toList#0;class#SortTest#0" expanded="false" />
+                <element signature="e#1706#1707#0" expanded="true" />
+                <element signature="e#1756#1757#0" expanded="true" />
+                <element signature="e#1817#1818#0" expanded="true" />
+                <element signature="e#1866#1867#0" expanded="true" />
                 <element signature="method#testQuickSortPlus#0;class#SortTest#0" expanded="false" />
                 <element signature="docComment;method#testLog2#0;class#SortTest#0" expanded="false" />
                 <element signature="method#testLog2#0;class#SortTest#0" expanded="false" />
@@ -55,11 +67,19 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="InsertSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/InsertSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+=======
+      <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/QuickSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+>>>>>>> parent of e8a9626... Quiksort implementiert
               <folding />
             </state>
           </provider>
@@ -68,8 +88,13 @@
       <file leaf-file-name="IntroSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IntroSort.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="165">
               <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+=======
+            <state relative-caret-position="-71">
+              <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="21" />
+>>>>>>> parent of e8a9626... Quiksort implementiert
               <folding />
             </state>
           </provider>
@@ -141,9 +166,14 @@
     </navigator>
     <panes>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <pane id="Scope" />
 =======
 >>>>>>> a40e35a40e1a4ee62b7ef9bb13712bbbf8f5cf32
+=======
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+>>>>>>> parent of e8a9626... Quiksort implementiert
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,6 +196,7 @@
         </subPane>
       </pane>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <pane id="AndroidView" />
       <pane id="Scratches" />
 =======
@@ -174,6 +205,10 @@
       <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="Scope" />
+=======
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+>>>>>>> parent of e8a9626... Quiksort implementiert
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -379,31 +414,38 @@
     <servers />
   </component>
   <component name="TestHistory">
+<<<<<<< HEAD
     <history-entry file="SortTest_testQuickSort - 2017.11.02 at 23h 05m 04s.xml">
+=======
+    <history-entry file="SortTest_testQuickSort - 2017.10.31 at 22h 25m 57s.xml">
       <configuration name="SortTest.testQuickSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortTest_testQuickSort - 2017.11.02 at 23h 05m 50s.xml">
+    <history-entry file="SortTest_testQuickSort - 2017.10.31 at 22h 29m 30s.xml">
+>>>>>>> parent of e8a9626... Quiksort implementiert
       <configuration name="SortTest.testQuickSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortTest_testQuickSort - 2017.11.02 at 23h 06m 22s.xml">
+    <history-entry file="SortTest_testQuickSort - 2017.10.31 at 22h 29m 46s.xml">
       <configuration name="SortTest.testQuickSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortTest_testQuickSort - 2017.11.02 at 23h 06m 58s.xml">
+    <history-entry file="SortTest_testQuickSort - 2017.10.31 at 22h 31m 13s.xml">
       <configuration name="SortTest.testQuickSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortTest_testQuickSort - 2017.11.02 at 23h 07m 18s.xml">
+    <history-entry file="SortTest_testQuickSort - 2017.10.31 at 22h 32m 24s.xml">
       <configuration name="SortTest.testQuickSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortTest_testQuickSort - 2017.11.02 at 23h 07m 40s.xml">
+    <history-entry file="SortTest_testQuickSort - 2017.10.31 at 22h 38m 25s.xml">
       <configuration name="SortTest.testQuickSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortTest_testQuickSort - 2017.11.02 at 23h 08m 00s.xml">
+    <history-entry file="SortTest_testQuickSort - 2017.10.31 at 22h 40m 38s.xml">
       <configuration name="SortTest.testQuickSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortTest_testQuickSort - 2017.11.02 at 23h 08m 23s.xml">
+    <history-entry file="SortTest_testQuickSort - 2017.10.31 at 22h 42m 42s.xml">
       <configuration name="SortTest.testQuickSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortTest_testQuickSort - 2017.11.02 at 23h 08m 49s.xml">
+    <history-entry file="SortTest_testQuickSort - 2017.10.31 at 22h 45m 26s.xml">
+      <configuration name="SortTest.testQuickSort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SortTest_testQuickSort - 2017.10.31 at 22h 47m 40s.xml">
       <configuration name="SortTest.testQuickSort" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SortTest_testQuickSort - 2017.11.07 at 19h 15m 12s.xml">
@@ -468,16 +510,50 @@
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/QuickSort.java</url>
-          <line>51</line>
+          <url>file://$PROJECT_DIR$/Test/SortTest.java</url>
+          <line>40</line>
           <properties />
-          <option name="timeStamp" value="38" />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/QuickSort.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/QuickSort.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/QuickSort.java</url>
+          <line>97</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/QuickSort.java</url>
+<<<<<<< HEAD
+          <line>51</line>
+=======
+          <line>86</line>
+>>>>>>> parent of e8a9626... Quiksort implementiert
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/QuickSort.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="45" />
+      <option name="time" value="30" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -595,6 +671,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/SortTest.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="450">
           <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding>
@@ -641,12 +718,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/SortTest.java">
       <provider selected="true" editor-type-id="text-editor">
+=======
+>>>>>>> parent of e8a9626... Quiksort implementiert
         <state relative-caret-position="540">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
             <element signature="method#toList#0;class#SortTest#0" expanded="false" />
+<<<<<<< HEAD
             <element signature="e#1805#1806#0" expanded="true" />
             <element signature="e#1854#1855#0" expanded="true" />
+=======
+            <element signature="e#1706#1707#0" expanded="true" />
+            <element signature="e#1756#1757#0" expanded="true" />
+            <element signature="e#1817#1818#0" expanded="true" />
+            <element signature="e#1866#1867#0" expanded="true" />
+>>>>>>> parent of e8a9626... Quiksort implementiert
             <element signature="method#testQuickSortPlus#0;class#SortTest#0" expanded="false" />
             <element signature="docComment;method#testLog2#0;class#SortTest#0" expanded="false" />
             <element signature="method#testLog2#0;class#SortTest#0" expanded="false" />
@@ -709,6 +795,7 @@
         <state relative-caret-position="330">
           <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
 <<<<<<< HEAD
+<<<<<<< HEAD
           <folding>
             <element signature="docComment;method#sortPlus#1;class#QuickSort#0" expanded="false" />
             <element signature="docComment;method#partition#0;class#QuickSort#0" expanded="false" />
@@ -719,6 +806,9 @@
 =======
           <folding />
 >>>>>>> a40e35a40e1a4ee62b7ef9bb13712bbbf8f5cf32
+=======
+          <folding />
+>>>>>>> parent of e8a9626... Quiksort implementiert
         </state>
       </provider>
     </entry>
@@ -728,8 +818,15 @@
           <caret line="64" column="16" lean-forward="false" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
           <folding>
             <element signature="method#toList#0;class#SortTest#0" expanded="false" />
+<<<<<<< HEAD
             <element signature="e#1805#1806#0" expanded="true" />
             <element signature="e#1854#1855#0" expanded="true" />
+=======
+            <element signature="e#1706#1707#0" expanded="true" />
+            <element signature="e#1756#1757#0" expanded="true" />
+            <element signature="e#1817#1818#0" expanded="true" />
+            <element signature="e#1866#1867#0" expanded="true" />
+>>>>>>> parent of e8a9626... Quiksort implementiert
             <element signature="method#testQuickSortPlus#0;class#SortTest#0" expanded="false" />
             <element signature="docComment;method#testLog2#0;class#SortTest#0" expanded="false" />
             <element signature="method#testLog2#0;class#SortTest#0" expanded="false" />
@@ -783,6 +880,7 @@
         <state relative-caret-position="330">
           <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
 <<<<<<< HEAD
+<<<<<<< HEAD
           <folding>
             <element signature="docComment;method#sortPlus#1;class#QuickSort#0" expanded="false" />
             <element signature="docComment;method#partition#0;class#QuickSort#0" expanded="false" />
@@ -793,6 +891,9 @@
 =======
           <folding />
 >>>>>>> a40e35a40e1a4ee62b7ef9bb13712bbbf8f5cf32
+=======
+          <folding />
+>>>>>>> parent of e8a9626... Quiksort implementiert
         </state>
       </provider>
     </entry>
@@ -841,6 +942,7 @@
         <state relative-caret-position="195">
           <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
 <<<<<<< HEAD
+<<<<<<< HEAD
           <folding>
             <element signature="docComment;method#sortPlus#1;class#QuickSort#0" expanded="false" />
             <element signature="docComment;method#partition#0;class#QuickSort#0" expanded="false" />
@@ -851,6 +953,9 @@
 =======
           <folding />
 >>>>>>> a40e35a40e1a4ee62b7ef9bb13712bbbf8f5cf32
+=======
+          <folding />
+>>>>>>> parent of e8a9626... Quiksort implementiert
         </state>
       </provider>
     </entry>
@@ -895,6 +1000,7 @@
         <state relative-caret-position="330">
           <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
 <<<<<<< HEAD
+<<<<<<< HEAD
           <folding>
             <element signature="docComment;method#sortPlus#1;class#QuickSort#0" expanded="false" />
             <element signature="docComment;method#partition#0;class#QuickSort#0" expanded="false" />
@@ -905,6 +1011,9 @@
 =======
           <folding />
 >>>>>>> a40e35a40e1a4ee62b7ef9bb13712bbbf8f5cf32
+=======
+          <folding />
+>>>>>>> parent of e8a9626... Quiksort implementiert
         </state>
       </provider>
     </entry>
@@ -953,12 +1062,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Sortierungsaufgabe.iml">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+        <state relative-caret-position="-71">
+          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="21" />
+>>>>>>> parent of e8a9626... Quiksort implementiert
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Test/SortTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -977,10 +1092,23 @@
         <state relative-caret-position="-399">
           <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
 >>>>>>> a40e35a40e1a4ee62b7ef9bb13712bbbf8f5cf32
+=======
+    <entry file="file://$PROJECT_DIR$/Test/SortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+>>>>>>> parent of e8a9626... Quiksort implementiert
           <folding>
             <element signature="method#toList#0;class#SortTest#0" expanded="false" />
+<<<<<<< HEAD
             <element signature="e#1805#1806#0" expanded="true" />
             <element signature="e#1854#1855#0" expanded="true" />
+=======
+            <element signature="e#1706#1707#0" expanded="true" />
+            <element signature="e#1756#1757#0" expanded="true" />
+            <element signature="e#1817#1818#0" expanded="true" />
+            <element signature="e#1866#1867#0" expanded="true" />
+>>>>>>> parent of e8a9626... Quiksort implementiert
             <element signature="method#testQuickSortPlus#0;class#SortTest#0" expanded="false" />
             <element signature="docComment;method#testLog2#0;class#SortTest#0" expanded="false" />
             <element signature="method#testLog2#0;class#SortTest#0" expanded="false" />
@@ -996,6 +1124,7 @@
     <entry file="file://$PROJECT_DIR$/src/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="408">
           <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
@@ -1010,6 +1139,11 @@
           <caret line="55" column="35" lean-forward="true" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
           <folding />
 >>>>>>> a40e35a40e1a4ee62b7ef9bb13712bbbf8f5cf32
+=======
+        <state relative-caret-position="440">
+          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+          <folding />
+>>>>>>> parent of e8a9626... Quiksort implementiert
         </state>
       </provider>
     </entry>
