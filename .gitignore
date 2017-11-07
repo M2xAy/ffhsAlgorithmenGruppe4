@@ -20,5 +20,9 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+<<<<<<< HEAD
 .DS_Store
 .DS_Store
+=======
+Sortierungsaufgabe/.idea/workspace.xml
+>>>>>>> 7e8ecf8622bae9f72d832a5354e82f6d9d65587a
