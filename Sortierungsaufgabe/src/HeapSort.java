@@ -1,5 +1,7 @@
 public class HeapSort
 {
+	int s;
+
 	/**
 	 * Sortiert ein Array mit Heapsort.
 	 * @param array
@@ -17,9 +19,51 @@ public class HeapSort
 	 */
 	public static void sort(int[] array, int start, int end)
 	{
-		// TODO
+
+		start=0;
+		end=array.length-1;
+		heapsort();
 	}
-	
+	private void heapsort(){
+		buildheap();
+		while (s>1)
+		{
+			s--;
+			exchange(0, s);
+			downheap(0);
+		}
+	}
+	private void buildheap()
+	{
+		for (int v=s/2-1; v>=0; v--)
+			downheap(v);
+	}
+
+	private void downheap(int v)
+	{
+		int w=2*v+1;         // erster Nachfolger von v
+		while (w<s)
+		{
+			if (w+1<s)       // gibt es einen zweiten Nachfolger?
+				if (a[w+1]>a[w]) w++;
+			// w ist der Nachfolger von v mit maximaler Markierung
+
+			if (a[v]>=a[w]) return;  // v hat die Heap-Eigenschaft
+			// sonst
+			exchange(v, w);  // vertausche Markierungen von v und w
+			v=w;             // fahre mit v=w fort
+			w=2*v+1;
+		}
+	}
+
+	private void exchange(int i, int j)
+	{
+		int t=a[i];
+		a[i]=a[j];
+		a[j]=t;
+	}
+
+}    // end class HeapSorter
 	/**
 	 * Erzeugt aus einem angegebenen Teilstück einen Heap.
 	 * @param array
